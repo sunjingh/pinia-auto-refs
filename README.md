@@ -60,7 +60,7 @@ export default defineConfig({
 
 ```ts
 type Options = Partial<{
-  storeDir: string
+  storeDir: string | string[]
   excludes: string[]
   outputFile: string
 }>
